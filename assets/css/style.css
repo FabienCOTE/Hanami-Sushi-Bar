@@ -30,7 +30,17 @@
 }
 .menu img{
   max-height: 200px;
+  border-bottom:  solid 1px #dfdfdf;
 }
+
+.kprev {
+  border: solid 1px #dfdfdf;
+}
+
+.knext {
+  border: solid 1px #dfdfdf;
+}
+
 .carouselBottom {
 
 }
