@@ -37,8 +37,13 @@
 /* Beginning Section Fabien */
 /* Beginning section 3 Contact/Formulaire*/
 .delete-margin {
-    margin-right: 0;
-    margin-left: 0;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.delete-margin-p {
+  margin-top: 1rem;
+  float: left;
 }
 
 /* End section 3 Contact/Formulaire*/

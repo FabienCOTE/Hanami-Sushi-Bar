@@ -39,174 +39,319 @@
       <form method="post" action="#">
         <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
           <li class="nav-item">
-            <a class="nav-link active" id="pills-menu-tab" data-toggle="pill" href="#pills-menu" role="tab" aria-controls="pills-menu" aria-selected="true">Menu</a>
+            <a class="nav-link active" id="pills-menu-tab" data-toggle="pill" href="#pills-menu" role="tab" aria-controls="pills-menu" aria-selected="true">1. Menu</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" id="pills-adress-tab" data-toggle="pill" href="#pills-adress" role="tab" aria-controls="pills-adress" aria-selected="false">Informations</a>
+            <a class="nav-link" id="pills-adress-tab" data-toggle="pill" href="#pills-adress" role="tab" aria-controls="pills-adress" aria-selected="false">2. Informations</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" id="pills-time-tab" data-toggle="pill" href="#pills-time" role="tab" aria-controls="pills-time" aria-selected="false">Horaire</a>
+            <a class="nav-link" id="pills-time-tab" data-toggle="pill" href="#pills-time" role="tab" aria-controls="pills-time" aria-selected="false">3. Horaire</a>
           </li>
         </ul>
         <div class="tab-content" id="pills-tabContent">
           <div class="tab-pane fade show active" id="pills-menu" role="tabpanel" aria-labelledby="pills-menu-tab">
             <h1>Sélectionnez votre menu</h1>
-            <!-- Big menu -->
-            <div class="card-deck delete-margin">
-              <div class="form-group form-check col-lg-4 w-100">
-                <label class="form-check-label w-100" for="menuCheck1">
-                  <div class="card">
-                    <div class="card-body">
-                      <input type="checkbox" class="form-check-input" id="menuCheck1" value="menu1">
-                      <h2 class="h4 card-title">Menu 1</h2>
-                      <h3 class="h5">Maki Mixte</h3>
-                      <p class="card-text">description menu</p>
+            <div class="pos-f-t">
+              <nav class="navbar navbar-dark bg-dark">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuClassic" aria-controls="menuClassic" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <h1 class="delete-margin-p mx-auto">Nos formules</h1>
+              </nav>
+              <div class="collapse" id="menuClassic">
+                <div class="bg-dark p-4">
+                  <!-- Big menu -->
+                  <div class="card-deck delete-margin">
+                    <div class="form-group form-check col-lg-4 w-100">
+                      <label class="form-check-label w-100" for="menuCheck1">
+                        <div class="card">
+                          <div class="card-body">
+                            <div class="row mx-auto">
+                              <select class="custom-select w-auto" id="menuCheck1">
+                                <option selected>Quantité</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                              </select>
+                              <h2 class="h4 card-title mx-auto pt-2">Menu 1</h2>
+                            </div>
+                            <h3 class="h5">Maki Mixte</h3>
+                            <p class="card-text">description menu</p>
+                          </div>
+                        </div>
+                      </label>
+                    </div>
+                    <div class="form-group form-check col-lg-4 w-100">
+                      <label class="form-check-label w-100" for="menuCheck2">
+                        <div class="card">
+                          <div class="card-body">
+                            <div class="row mx-auto">
+                              <select class="custom-select w-auto" id="menuCheck2">
+                                <option selected>Quantité</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                              </select>
+                              <h2 class="h4 card-title mx-auto pt-2">Menu 2</h2>
+                            </div><h3 class="h5">California Sashimi</h3>
+                            <p class="card-text">description menu</p>
+                          </div>
+                        </div>
+                      </label>
+                    </div>
+                    <div class="form-group form-check col-lg-4 w-100">
+                      <label class="form-check-label w-100" for="menuCheck3">
+                        <div class="card">
+                          <div class="card-body">
+                            <div class="row mx-auto">
+                              <select class="custom-select w-auto" id="menuCheck3">
+                                <option selected>Quantité</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                              </select>
+                              <h2 class="h4 card-title mx-auto pt-2">Menu 3</h2>
+                            </div><h3 class="h5">Bento Crevette Panée</h3>
+                            <p class="card-text">description menu</p>
+                          </div>
+                        </div>
+                      </label>
+                    </div>
+                    <div class="form-group form-check col-lg-4 w-100">
+                      <label class="form-check-label w-100" for="menuCheck4">
+                        <div class="card">
+                          <div class="card-body">
+                            <div class="row mx-auto">
+                              <select class="custom-select w-auto" id="menuCheck4">
+                                <option selected>Quantité</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                              </select>
+                              <h2 class="h4 card-title mx-auto pt-2">Menu 4</h2>
+                            </div><h3 class="h5">Saumon Classique</h3>
+                            <p class="card-text">description menu</p>
+                          </div>
+                        </div>
+                      </label>
+                    </div>
+                    <div class="form-group form-check col-lg-4 w-100">
+                      <label class="form-check-label w-100" for="menuCheck5">
+                        <div class="card">
+                          <div class="card-body">
+                            <div class="row mx-auto">
+                              <select class="custom-select w-auto" id="menuCheck5">
+                                <option selected>Quantité</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                              </select>
+                              <h2 class="h4 card-title mx-auto pt-2">Menu 5</h2>
+                            </div>
+                            <h3 class="h5">Rainbow</h3>
+                            <p class="card-text">description menu</p>
+                          </div>
+                        </div>
+                      </label>
+                    </div>
+                    <div class="form-group form-check col-lg-4 w-100">
+                      <label class="form-check-label w-100" for="menuCheck6">
+                        <div class="card">
+                          <div class="card-body">
+                            <div class="row mx-auto">
+                              <select class="custom-select w-auto" id="menuCheck6">
+                                <option selected>Quantité</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                              </select>
+                              <h2 class="h4 card-title mx-auto pt-2">Menu 6</h2>
+                            </div><h3 class="h5">Duo Chirashi</h3>
+                            <p class="card-text">description menu</p>
+                          </div>
+                        </div>
+                      </label>
                     </div>
                   </div>
-                </label>
-              </div>
-              <div class="form-group form-check col-lg-4 w-100">
-                <label class="form-check-label w-100" for="menuCheck2">
-                  <div class="card">
-                    <div class="card-body">
-                      <input type="checkbox" class="form-check-input" id="menuCheck2" value="menu2">
-                      <h2 class="h4 card-title">Menu 2</h2>
-                      <h3 class="h5">California Sashimi</h3>
-                      <p class="card-text">description menu</p>
-                    </div>
-                  </div>
-                </label>
-              </div>
-              <div class="form-group form-check col-lg-4 w-100">
-                <label class="form-check-label w-100" for="menuCheck3">
-                  <div class="card">
-                    <div class="card-body">
-                      <input type="checkbox" class="form-check-input" id="menuCheck3" value="menu3">
-                      <h2 class="h4 card-title">Menu 3</h2>
-                      <h3 class="h5">Bento Crevette Panée</h3>
-                      <p class="card-text">description menu</p>
-                    </div>
-                  </div>
-                </label>
-              </div>
-              <div class="form-group form-check col-lg-4 w-100">
-                <label class="form-check-label w-100" for="menuCheck4">
-                  <div class="card">
-                    <div class="card-body">
-                      <input type="checkbox" class="form-check-input" id="menuCheck4" value="menu4">
-                      <h2 class="h4 card-title">Menu 4</h2>
-                      <h3 class="h5">Saumon Classique</h3>
-                      <p class="card-text">description menu</p>
-                    </div>
-                  </div>
-                </label>
-              </div>
-              <div class="form-group form-check col-lg-4 w-100">
-                <label class="form-check-label w-100" for="menuCheck5">
-                  <div class="card">
-                    <div class="card-body">
-                      <input type="checkbox" class="form-check-input" id="menuCheck5" value="menu5">
-                      <h2 class="h4 card-title">Menu 5</h2>
-                      <h3 class="h5">Rainbow</h3>
-                      <p class="card-text">description menu</p>
-                    </div>
-                  </div>
-                </label>
-              </div>
-              <div class="form-group form-check col-lg-4 w-100">
-                <label class="form-check-label w-100" for="menuCheck6">
-                  <div class="card">
-                    <div class="card-body">
-                      <input type="checkbox" class="form-check-input" id="menuCheck6" value="menu6">
-                      <h2 class="h4 card-title">Menu 6</h2>
-                      <h3 class="h5">Duo Chirashi</h3>
-                      <p class="card-text">description menu</p>
-                    </div>
-                  </div>
-                </label>
+                </div>
               </div>
             </div>
-            <!-- Small menu -->
-            <div class="card-deck delete-margin">
-              <div class="form-group form-check col-lg-4 w-100">
-                <label class="form-check-label w-100" for="smallMenuCheck1">
-                  <div class="card">
-                    <div class="card-body">
-                      <input type="checkbox" class="form-check-input" id="smallMenuCheck1" value="small1">
-                      <h2 class="h4 card-title">Menu 1</h2>
-                      <h3 class="h5">Maki Mixte</h3>
-                      <p class="card-text">description menu</p>
+            <div class="pos-f-t">
+              <nav class="navbar navbar-dark bg-dark">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuSmall" aria-controls="menuSmall" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <h1 class="delete-margin-p mx-auto">Nos mini-formules</h1>
+              </nav>
+              <div class="collapse" id="menuSmall">
+                <div class="bg-dark p-4">
+                  <!-- Small menu -->
+                  <div class="card-deck delete-margin">
+                    <div class="form-group form-check col-lg-4 w-100">
+                      <label class="form-check-label w-100" for="smallMenuCheck1">
+                        <div class="card">
+                          <div class="card-body">
+                            <div class="row mx-auto">
+                              <select class="custom-select w-auto" id="smallMenuCheck1">
+                                <option selected>Quantité</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                              </select>
+                              <h2 class="h4 card-title mx-auto pt-2">Menu 1</h2>
+                            </div>
+                            <h3 class="h5">Maki Mixte</h3>
+                            <p class="card-text">description menu</p>
+                          </div>
+                        </div>
+                      </label>
+                    </div>
+                    <div class="form-group form-check col-lg-4 w-100">
+                      <label class="form-check-label w-100" for="smallMenuCheck2">
+                        <div class="card">
+                          <div class="card-body">
+                            <div class="row mx-auto">
+                              <select class="custom-select w-auto" id="smallMenuCheck2">
+                                <option selected>Quantité</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                              </select>
+                              <h2 class="h4 card-title mx-auto pt-2">Menu 2</h2>
+                            </div><h3 class="h5">California Sashimi</h3>
+                            <p class="card-text">description menu</p>
+                          </div>
+                        </div>
+                      </label>
+                    </div>
+                    <div class="form-group form-check col-lg-4 w-100">
+                      <label class="form-check-label w-100" for="smallMenuCheck3">
+                        <div class="card">
+                          <div class="card-body">
+                            <div class="row mx-auto">
+                              <select class="custom-select w-auto" id="smallMenuCheck3">
+                                <option selected>Quantité</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                              </select>
+                              <h2 class="h4 card-title mx-auto pt-2">Menu 3</h2>
+                            </div><h3 class="h5">Bento Crevette Panée</h3>
+                            <p class="card-text">description menu</p>
+                          </div>
+                        </div>
+                      </label>
+                    </div>
+                    <div class="form-group form-check col-lg-4 w-100">
+                      <label class="form-check-label w-100" for="smallMenuCheck4">
+                        <div class="card">
+                          <div class="card-body">
+                            <div class="row mx-auto">
+                              <select class="custom-select w-auto" id="smallMenuCheck4">
+                                <option selected>Quantité</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                              </select>
+                              <h2 class="h4 card-title mx-auto pt-2">Menu 4</h2>
+                            </div><h3 class="h5">Saumon Classique</h3>
+                            <p class="card-text">description menu</p>
+                          </div>
+                        </div>
+                      </label>
+                    </div>
+                    <div class="form-group form-check col-lg-4 w-100">
+                      <label class="form-check-label w-100" for="smallMenuCheck5">
+                        <div class="card">
+                          <div class="card-body">
+                            <div class="row mx-auto">
+                              <select class="custom-select w-auto" id="smallMenuCheck5">
+                                <option selected>Quantité</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                              </select>
+                              <h2 class="h4 card-title mx-auto pt-2">Menu 5</h2>
+                            </div>
+                            <h3 class="h5">Rainbow</h3>
+                            <p class="card-text">description menu</p>
+                          </div>
+                        </div>
+                      </label>
+                    </div>
+                    <div class="form-group form-check col-lg-4 w-100">
+                      <label class="form-check-label w-100" for="smallMenuCheck6">
+                        <div class="card">
+                          <div class="card-body">
+                            <div class="row mx-auto">
+                              <select class="custom-select w-auto" id="smallMenuCheck6">
+                                <option selected>Quantité</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                              </select>
+                              <h2 class="h4 card-title mx-auto pt-2">Menu 6</h2>
+                            </div>
+                            <h3 class="h5">Duo Chirashi</h3>
+                            <p class="card-text">description menu</p>
+                          </div>
+                        </div>
+                      </label>
                     </div>
                   </div>
-                </label>
-              </div>
-              <div class="form-group form-check col-lg-4 w-100">
-                <label class="form-check-label w-100" for="smallMenuCheck2">
-                  <div class="card">
-                    <div class="card-body">
-                      <input type="checkbox" class="form-check-input" id="smallMenuCheck2" value="small2">
-                      <h2 class="h4 card-title">Menu 2</h2>
-                      <h3 class="h5">California Sashimi</h3>
-                      <p class="card-text">description menu</p>
-                    </div>
-                  </div>
-                </label>
-              </div>
-              <div class="form-group form-check col-lg-4 w-100">
-                <label class="form-check-label w-100" for="smallMenuCheck3">
-                  <div class="card">
-                    <div class="card-body">
-                      <input type="checkbox" class="form-check-input" id="smallMenuCheck3" value="small3">
-                      <h2 class="h4 card-title">Menu 3</h2>
-                      <h3 class="h5">Bento Crevette Panée</h3>
-                      <p class="card-text">description menu</p>
-                    </div>
-                  </div>
-                </label>
-              </div>
-              <div class="form-group form-check col-lg-4 w-100">
-                <label class="form-check-label w-100" for="smallMenuCheck4">
-                  <div class="card">
-                    <div class="card-body">
-                      <input type="checkbox" class="form-check-input" id="smallMenuCheck4" value="small4">
-                      <h2 class="h4 card-title">Menu 4</h2>
-                      <h3 class="h5">Saumon Classique</h3>
-                      <p class="card-text">description menu</p>
-                    </div>
-                  </div>
-                </label>
-              </div>
-              <div class="form-group form-check col-lg-4 w-100">
-                <label class="form-check-label w-100" for="smallMenuCheck5">
-                  <div class="card">
-                    <div class="card-body">
-                      <input type="checkbox" class="form-check-input" id="smallMenuCheck5" value="small5">
-                      <h2 class="h4 card-title">Menu 5</h2>
-                      <h3 class="h5">Rainbow</h3>
-                      <p class="card-text">description menu</p>
-                    </div>
-                  </div>
-                </label>
-              </div>
-              <div class="form-group form-check col-lg-4 w-100">
-                <label class="form-check-label w-100" for="smallMenuCheck6">
-                  <div class="card">
-                    <div class="card-body">
-                      <input type="checkbox" class="form-check-input" id="smallMenuCheck6" value="small6">
-                      <h2 class="h4 card-title">Menu 6</h2>
-                      <h3 class="h5">Duo Chirashi</h3>
-                      <p class="card-text">description menu</p>
-                    </div>
-                  </div>
-                </label>
+                </div>
               </div>
             </div>
           </div>
           <div class="tab-pane fade" id="pills-adress" role="tabpanel" aria-labelledby="pills-adress-tab">
             <h1>Indiquez vos coordonées</h1>
+            <div class="form-row">
+              <div class="col-lg-6 col-md-12 col-sm-12">
+                <input type="text" class="form-control" placeholder="Nom">
+              </div>
+              <div class="col-lg-6 col-md-12 col-sm-12">
+                <input type="text" class="form-control" placeholder="Prénom">
+              </div>
+            </div>
+            <div class="form-row mt-3">
+              <div class="col-lg-7 col-md-12 col-sm-12">
+                <input type="text" class="form-control" placeholder="Adresse">
+              </div>
+              <div class="col-lg-3 col-md-12 col-sm-12">
+                <input type="text" class="form-control" placeholder="Ville">
+              </div>
+              <div class="col-lg-2 col-md-12 col-sm-12">
+                <input type="text" class="form-control" placeholder="Code Postal">
+              </div>
+            </div>
           </div>
           <div class="tab-pane fade" id="pills-time" role="tabpanel" aria-labelledby="pills-time-tab">
             <h1>Choissiez l'heure de retrait</h1>
+
             <button type="submit" class="btn btn-primary">Envoyer</button>
           </div>
         </div>
