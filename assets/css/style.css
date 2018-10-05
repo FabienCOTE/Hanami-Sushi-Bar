@@ -99,7 +99,9 @@ src: url('secrcode.ttf');
 
 
 /* Beginning Background 1 */
-
+#background-1 {
+  background: url(../../images/1.jpg) no-repeat center center fixed;
+}
 /* End Background 1 */
 
 /* Beginning Section Karl */
@@ -141,19 +143,114 @@ src: url('secrcode.ttf');
 /* End Section Karl */
 
 /* Beginning Background 2 */
-
+#background-2 {
+  background: url(../../images/2.jpg) no-repeat center center fixed;
+}
 /* End Background 2 */
-
 /* Beginning Section Fabien */
 /* Beginning section 3 Contact/Formulaire*/
+.delete-margin {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.delete-margin-p {
+  margin-top: 1rem;
+  float: left;
+}
+
+.height-card {
+  min-height: 235px;
+}
+
+.b-border {
+  border-bottom: 1px solid #323f45;
+}
 
 /* End section 3 Contact/Formulaire*/
-
 /* Beginning Background 3*/
+#background-3 {
+  background: url(../../images/3.jpg) no-repeat center center fixed;
+}
 
+#background-1, #background-2, #background-3 {
+  opacity: 0.5;
+  min-height: 600px;
+}
 /* End Background 3*/
-
 /* Beginning Footer*/
+footer {
+  width: 100%;
+  background-color: #263238;
+  min-height: 250px;
+  padding: 10px 0px 25px 0px;
+}
 
+footer p {
+  font-size: 13px;
+  color: #CCC;
+  margin-bottom: 8px;
+}
+
+.bottom-border {
+  border-bottom: 1px solid #323f45;
+  padding-bottom: 20px;
+}
+
+.change-ul {
+  margin: 0px;
+  list-style-type: none;
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+.change-ul li {
+  padding-bottom: 5px;
+}
+
+.change-ul li a {
+  color:#CCC;
+}
+
+.change-ul li a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.social {
+  list-style-type: none;
+}
+
+.social li a {
+  text-align: center;
+  color: #CCC;
+  border: 1px solid #CCC;
+  padding: 8px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.social li i {
+  width: 20px;
+  height: 20px;
+}
+
+.menu-footer {
+  list-style-type:none;
+  padding:0px;
+  display:table;
+  margin-top: 10px ;
+	margin-right: auto;
+  margin-bottom: 10px;
+  margin-left: auto;
+}
+
+.menu-footer li {
+  display:inline;
+}
+
+.menu-footer li a {
+  color:#999;
+  margin:0 12px;
+}
 /* End Footer*/
 /* End Section Fabien */
