@@ -33,14 +33,19 @@
   border-bottom:  solid 1px #dfdfdf;
 }
 
-.kprev {
-  border: solid 1px #dfdfdf;
+.kprev { /*bouton carousel prev */
+  height: 30px;
+  color: red;
 }
 
-.knext {
-  border: solid 1px #dfdfdf;
+.knext { /*bouton carousel next*/
+  height: 30px;
+  color: red;
 }
-
+.knext: { /*bouton carousel next*/
+  height: 30px;
+  color: red;
+}
 .carouselBottom {
 
 }
@@ -53,13 +58,6 @@
 
 }
 
-.kprev { /*bouton carousel prev */
-
-}
-
-.knext { /*bouton carousel next*/
-
-}
 /* End section2 carousel formule Karl */
 /* End Section Karl */
 
