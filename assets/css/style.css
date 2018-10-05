@@ -104,7 +104,38 @@ src: url('secrcode.ttf');
 
 /* Beginning Section Karl */
 /* Beginning section2 carousel formule Karl */
+.menu {
 
+}
+.menu img{
+  max-height: 200px;
+  border-bottom:  solid 1px #dfdfdf;
+}
+
+.kprev { /*bouton carousel prev */
+  height: 30px;
+  color: red;
+}
+
+.knext { /*bouton carousel next*/
+  height: 30px;
+  color: red;
+}
+.knext: { /*bouton carousel next*/
+  height: 30px;
+  color: red;
+}
+.carouselBottom {
+
+}
+
+.kformule1 {
+
+}
+
+.kformulemini {
+
+}
 
 /* End section2 carousel formule Karl */
 /* End Section Karl */
