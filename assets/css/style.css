@@ -53,6 +53,10 @@
   min-height: 235px;
 }
 
+.b-border {
+  border-bottom: 1px solid #323f45;
+}
+
 /* End section 3 Contact/Formulaire*/
 /* Beginning Background 3*/
 #background-3 {
