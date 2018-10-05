@@ -20,7 +20,9 @@
 
 
 /* Beginning Background 1 */
-
+#background-1 {
+  background: url(../../images/1.jpg) no-repeat center center fixed;
+}
 /* End Background 1 */
 
 /* Beginning Section Karl */
@@ -31,7 +33,9 @@
 /* End Section Karl */
 
 /* Beginning Background 2 */
-
+#background-2 {
+  background: url(../../images/2.jpg) no-repeat center center fixed;
+}
 /* End Background 2 */
 /* Beginning Section Fabien */
 /* Beginning section 3 Contact/Formulaire*/
@@ -45,9 +49,20 @@
   float: left;
 }
 
+.height-card {
+  min-height: 235px;
+}
+
 /* End section 3 Contact/Formulaire*/
 /* Beginning Background 3*/
+#background-3 {
+  background: url(../../images/3.jpg) no-repeat center center fixed;
+}
 
+#background-1, #background-2, #background-3 {
+  opacity: 0.5;
+  min-height: 600px;
+}
 /* End Background 3*/
 /* Beginning Footer*/
 footer {
