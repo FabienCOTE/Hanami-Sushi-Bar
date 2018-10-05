@@ -1,13 +1,18 @@
 /* Beginning Section Laetita */
-body {
-  background-image: url(../../images/food-1406879_1920.jpg);
-
+/* Beginning Header*/
+.bg-grey {
+  background-color: #262238;
 }
 
+.texticonetop {
+  color: white;
+  font-size: 14px;
+}
 
-
-
-/* Beginning Header*/
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+    color: rgba(0,0,0,.9);
+    padding-left: 25px;
+}
 
 /* End Header */
 
@@ -24,10 +29,6 @@ body {
 /* .carousel-background {
   background-image: url(/assets/images/japan.jpg);
 } */
-.container-fluid {
-  background:#444;
-}
-
 .carousel-item .img-fluid {
   display: none;
   position: relative;
@@ -35,27 +36,11 @@ body {
   width: 100%;
   height: 100%;
 }
-
- #carousel-top {
-  margin: 50px auto;
-  position: relative;
-  display: block;
- }
-
-.image-top {
-  border:1px solid #c1c2c4;
-  padding: 8px;
-  border-radius: 4px;
-  background: no-repeat scroll 0 0 #FFFFFF;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-}
 /* End carousel*/
 
 /* Beginning Introduction*/
-
-@font-face {
-font-family: 'secret code';
-src: url('secrcode.ttf');
+.h-img {
+height: 300px;
 }
 
 .introduction {
@@ -71,9 +56,6 @@ src: url('secrcode.ttf');
 
 .introduction-text {
   width: 400px;
-  padding: 10px;
-  border: 1px solid black;
-  margin: 0 auto 50px;
   background-color: rgba(0,0,0,0.5);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   color: #efefef;
@@ -106,37 +88,22 @@ src: url('secrcode.ttf');
 
 /* Beginning Section Karl */
 /* Beginning section2 carousel formule Karl */
-.menu {
-
-}
-.menu img{
-  max-height: 200px;
-  border-bottom:  solid 1px #dfdfdf;
+.card img {
+  height: 200px;
+  border-bottom: 1px solid #dfdfdf;
 }
 
-.kprev { /*bouton carousel prev */
-  height: 30px;
+.h-card {
+  min-height: 420px;
+}
+
+.kprev, .knext { /*bouton carousel prev */
+  padding-top: 100px;
   color: red;
 }
 
-.knext { /*bouton carousel next*/
-  height: 30px;
-  color: red;
-}
-.knext: { /*bouton carousel next*/
-  height: 30px;
-  color: red;
-}
-.carouselBottom {
-
-}
-
-.kformule1 {
-
-}
-
-.kformulemini {
-
+.card-footer {
+  text-align: right;
 }
 
 /* End section2 carousel formule Karl */
@@ -160,11 +127,49 @@ src: url('secrcode.ttf');
 }
 
 .height-card {
-  min-height: 235px;
+  min-height: 270px;
 }
 
 .b-border {
   border-bottom: 1px solid #323f45;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #8AC53F;
+}
+
+.nav-pills .nav-link {
+    border-radius: .25rem;
+    color: #fff;
+    background-color: #8AC53F;
+}
+
+.btn-primary:hover, .btn-primary {
+    color: #fff;
+    background-color: #8AC53F;
+    border-color: #8AC53F;
+}
+
+form .card-deck .card p {
+  text-align: left;
+}
+
+form {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+form .card-footer {
+  float: right;
+  padding: 0 10px;
+  background-color: inherit;
+  border-top: 0px;
+  text-align: right;
+}
+
+.form-check-label {
+  padding-right: 30px;
 }
 
 /* End section 3 Contact/Formulaire*/
@@ -175,7 +180,7 @@ src: url('secrcode.ttf');
 
 #background-1, #background-2, #background-3 {
   opacity: 0.5;
-  min-height: 600px;
+  min-height: 450px;
 }
 /* End Background 3*/
 /* Beginning Footer*/
@@ -187,7 +192,8 @@ footer {
 }
 
 footer p {
-  font-size: 13px;
+  padding-left: 10px;
+  font-size: 15px;
   color: #CCC;
   margin-bottom: 8px;
 }
@@ -252,5 +258,18 @@ footer p {
   color:#999;
   margin:0 12px;
 }
+
+.img-map {
+  width: 50%;
+}
 /* End Footer*/
 /* End Section Fabien */
+@media only screen and (max-width: 900px) {
+  .knext, .kprev {
+    visibility: hidden;
+  }
+
+  footer {
+    text-align: center;
+  }
+}
