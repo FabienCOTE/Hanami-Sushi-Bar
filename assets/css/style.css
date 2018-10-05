@@ -45,9 +45,20 @@
 
 /* Beginning Introduction*/
 
+@font-face {
+font-family: 'secret code';
+src: url('secrcode.ttf');
+}
+
 .introduction {
   height: auto;
   width: auto;
+}
+
+.introduction .container-fluid {
+  background: url(http://www.izakayajoyi.fr/assets/background-bottom-0cb739883a15eb73405ca8b81c2131b7e3becf73969a054a335cfb7149f13063.jpg);
+  background-repeat: no-repeat;
+  padding-top: 30px;
 }
 
 .introduction-text {
